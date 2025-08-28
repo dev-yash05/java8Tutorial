@@ -1,5 +1,4 @@
 import java.util.List;
-import java.util.stream.IntStream;
 
 public class StreamAPIPractice {
     public static void main(String[] args) {
@@ -31,7 +30,7 @@ public class StreamAPIPractice {
                 .toList();
         System.out.println(upperNames);
 
-        //✅ Question 3: Find Length of Each String
+        //✅ Question 3: Find the Length of Each String
         //
         //Given a list of words:
         //["apple", "banana", "kiwi"]
@@ -71,7 +70,7 @@ public class StreamAPIPractice {
         //Do you want me to write the solutions for all 5 questions in Java, step-by-step (with explanation), or should I just give hints so you can try first?
         //
         //You said:
-        //provide me 10 more questions
+        //provide me 10 more questions,
         //ChatGPT said:
         //
         //Here are 10 more beginner-friendly Stream API practice questions focused on map() and toList(), keeping them simple yet slightly more creative:
@@ -114,7 +113,7 @@ public class StreamAPIPractice {
         //
         //Given:
         //[10, 20, 30]
-        //Convert each integer into a string with the prefix "Number: ".
+        //Convert each integer into a string with the prefix "Number:".
         //Expected Output:
         //["Number: 10", "Number: 20", "Number: 30"]
         List<Integer> numbers = List.of(10,20,30);
@@ -169,9 +168,9 @@ public class StreamAPIPractice {
         //Create:
         //["0-alpha", "1-beta", "2-gamma"]
         //(Hint: Use IntStream.range() or a trick inside map().)
-        List<String> strWithIndex = str.stream()
-                .map()
-                .toList();
+//        List<String> strWithIndex = str.stream()
+//                .map()
+//                .toList();
         
 
 
